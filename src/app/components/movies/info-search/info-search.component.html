@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+  
+    <div class=" info">
+      <img #movies [src]="['https://image.tmdb.org/t/p/original/' + movie.poster_path]" *ngIf="movie.poster_path != null" width="300px" height="500px" alt="" class="item-image ">
+      <img #movies [src]="'assets/no-image.jpg'"  *ngIf="movie.poster_path == null "  width="100%" height="320px" class="item-image" > 
+      </div>
+      <div class="info col-sm-1500">
+        <h3>{{movie.title}}</h3>
+        <p>{{movie.overview}}</p>
+        <p>{{movie.popularity}}</p>
+
+        <p>${{movie.budget}}</p>
+        <p>Fecha de estreno: {{movie.release_date}}</p>
+        <p>Duración: {{movie.runtime}} minutos</p>
+        <p ><a [href]="movie.homepage" class="home-page">{{movie.homepage}}</a></p>
+        <a class="btn btn-primary"[routerLink]="'/movies'">Volver</a>
+      </div>
+  
+    </div>
+    </div>
+    

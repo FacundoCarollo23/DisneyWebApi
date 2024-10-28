@@ -1,0 +1,65 @@
+
+.container{
+  width: 100vw; 
+  height: 100%;
+}
+.row{
+  display: grid;
+  grid-row-gap: 15px;
+  padding-bottom: 0px;
+
+  width: 100%;
+
+  margin-top: 50px;
+  
+
+}
+
+
+.info{
+  width: 100%;
+  color:#fff;
+
+  
+}
+
+
+
+@media screen and (min-width: 300px) {
+  .row {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 0px;
+  }
+  h3, p{ 
+    width: 550px;
+  
+  }
+  }
+
+.btn-primary{
+  
+  width: 100px;
+  background: none;
+  text-decoration: none;
+  border: 1px solid white;
+
+  
+  
+}
+
+.btn-primary:hover{
+  color: black;
+  background: white;  
+  box-shadow: none;
+}
+.pi{
+  font-weight: bold;
+  margin-left: 0;
+  display: flex;
+  
+}
+
+p a{
+  color: white;
+  text-decoration: none;
+}

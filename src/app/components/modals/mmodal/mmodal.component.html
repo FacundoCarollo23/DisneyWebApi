@@ -1,0 +1,20 @@
+<ng-container *ngIf="show ">
+
+    <div class="modalc" >
+      <div class="modalc-content" >
+        <div class="modalc-header">
+         <a><span class="pi pi-times" (click)="hideModal()" [routerLink]="'/home'"></span></a> 
+        </div>
+        <div class="modalc-container">
+          <ng-content overflow="visible"></ng-content>
+         
+         
+        </div>
+      </div>
+    </div>
+  
+  </ng-container>
+
+  
+
+ 

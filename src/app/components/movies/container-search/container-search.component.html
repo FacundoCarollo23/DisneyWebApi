@@ -1,0 +1,36 @@
+<div class="buscador">
+  <app-search [placeholder]="'Search'"(moviesSelected)="onMoveieselected($event)" syles=""></app-search>
+</div>
+  <div class="mostrar"  >
+
+    <swiper class="mySwiper"  
+    [slidesPerView]="6"
+    [spaceBetween]="30"
+   
+    [speed] ="1000"
+    [pagination]="true"
+    [setWrapperSize]="true">
+      <ng-template *ngFor="let movie of movies"  swiperSlide >
+      
+                 <a  [routerLink]="['details/', movie.id]">
+                   <div class="item-border">
+                    <img #movies [src]="['https://image.tmdb.org/t/p/original/' + movie.poster_path]" *ngIf="movie.poster_path != null  && movie.results != 'false' "  (click)="modalInfo.showModal()"  alt="" class="item-image ">
+                    <img #movies [src]="'assets/no-image.jpg'"  *ngIf="movie.poster_path == null " (click)="modalInfo.showModal()" width="100%" height="320px" class="item-image" > 
+                  </div>
+                </a>
+          
+            
+           
+     
+      </ng-template>
+  
+    </swiper>
+
+
+  
+   
+    
+</div>
+<app-mmodal #modalInfo #modalBack>
+  <app-info-search *ngIf="modalInfo.show == true"></app-info-search>
+     </app-mmodal>

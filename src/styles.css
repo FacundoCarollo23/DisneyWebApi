@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+@import url(//db.onlinewebfonts.com/c/d1bfb85795ca505281f9cee67b285c9a?family=Avenir+LT+Pro);
+@font-face {
+  font-family: "Avenir LT Pro";
+  src: url("//db.onlinewebfonts.com/t/d1bfb85795ca505281f9cee67b285c9a.eot");
+  src: url("//db.onlinewebfonts.com/t/d1bfb85795ca505281f9cee67b285c9a.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/d1bfb85795ca505281f9cee67b285c9a.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/d1bfb85795ca505281f9cee67b285c9a.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/d1bfb85795ca505281f9cee67b285c9a.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/d1bfb85795ca505281f9cee67b285c9a.svg#Avenir LT Pro")
+      format("svg");
+}
+html { 
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    width: 100%;
+    height: 100%;
+}
+html::-webkit-scrollbar {
+    display: none;
+}
+body {
+    width: 100%;
+    box-sizing: content-box;
+    background: radial-gradient( #1C1f2c,30%,#0d0e14);
+}
+
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

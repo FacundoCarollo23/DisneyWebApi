@@ -1,0 +1,144 @@
+.swiper {
+  
+  width: 100%;
+  height: auto;
+  padding-top: 30px;
+  position: absolute;
+  top: 80px;
+
+ 
+
+}
+button{
+  width: 100%;
+  cursor: default;
+  border: none;
+  background-color: transparent;
+
+}
+button:hover
+button:focus
+button:active{
+
+  width: 100%;
+  height: 100%;
+  cursor: default;
+  border: none;
+  background-color: transparent;
+
+}
+*{
+  cursor: default;
+}
+
+.swiper-wrapper{
+  
+max-width: 1600px;
+width: 100%;
+height: auto;
+
+
+
+
+}
+.swiper-slide h3{
+  width: 100%;
+}
+.swiper-slide {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+
+
+}
+
+.swiper-slide{
+
+ padding-bottom: 5px;
+  
+}
+
+.swiper-slide .img{
+   
+
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: rgb(0 0 0) 0px 16px 10px -10px;
+
+
+
+
+   
+
+}
+
+
+
+.swiper-pagination >>> .swiper-pagination-bullet {
+  width: 9px;
+  height: 9px ;
+  border-radius: 5px;
+  background-color:  #f9f9f9;;
+
+  opacity: 0.5;
+}
+.swiper-pagination >>> .swiper-pagination-bullet-active {
+  color: #969eab;
+
+  background-color: #969eab;
+  opacity: 1.5;
+  background-size: 50px;
+
+
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
